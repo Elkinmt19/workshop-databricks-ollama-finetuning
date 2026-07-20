@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+
+# uv
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+
+# Workshop-generated data and model artifacts (created by running the notebooks/scripts)
+data/
+llama.cpp/
+*.gguf
+finetuning_output/
+
+# Editors
+.vscode/
+.idea/
